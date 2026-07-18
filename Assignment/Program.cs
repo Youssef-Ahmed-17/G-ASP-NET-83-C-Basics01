@@ -103,6 +103,27 @@ namespace Assignment
             //Console.WriteLine(convertedPages);
 
             #endregion
+
+            #region Question 08 
+            /*Given string yearText = "2023";, convert it using int.Parse().
+              Then given string badText = "abc";, use int.
+              TryParse() to safely try converting it, and print "Invalid number" if it fails.
+            */
+
+            //string yearText = "2023";
+            //string badText = "abc";
+
+            //int ParsedYear = int.Parse(yearText);
+            //Console.WriteLine(ParsedYear);
+
+            //bool success = int.TryParse(badText, out int ParsedBadText);
+            //Console.WriteLine(success);
+            //Console.WriteLine(ParsedBadText);
+
+
+            #endregion
+
+
         }
-    }
+}
 }
