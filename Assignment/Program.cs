@@ -1,4 +1,8 @@
-﻿namespace Assignment
+﻿using System.Numerics;
+using System.Timers;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -12,7 +16,7 @@
 
             #region Question 01 
             //Create a Book object and store it in a variable of type object. Print it.
-            
+
             //Object book = new Book();
             //Console.WriteLine(book);
 
@@ -30,6 +34,20 @@
             //Console.WriteLine(book.Equals(book) );
             //Console.WriteLine(book.GetHashCode()); 
             //Console.WriteLine(book.GetType()); 
+            #endregion
+
+            #region Question 03 
+            /*
+            Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it.
+            int pages = "464";
+            */
+
+            // Compile - time error — you can't put text (string) into an int variable.
+            
+            // int pages = 464;
+
+            //Console.WriteLine(pages); 
+
             #endregion
         }
     }
