@@ -43,10 +43,35 @@ namespace Assignment
             */
 
             // Compile - time error — you can't put text (string) into an int variable.
-            
+
             // int pages = 464;
 
             //Console.WriteLine(pages); 
+
+            #endregion
+
+            #region Question 04 
+            /*
+             Write code that divides 10 by 0 inside a try block, catches the exception, 
+            prints "Cannot divide by zero", and then prints "Done" in a finally block  
+             */
+            //try
+            //{
+            //    int firstNumber = 10;
+            //    int secondNumber = 0; 
+            //    int div = firstNumber / secondNumber ;
+            //    Console.WriteLine(div);
+            //}
+            //catch (Exception ex)
+            //{
+
+            //    Console.WriteLine("Cannot divide by zero");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Done"); 
+            //}
+
 
             #endregion
         }
