@@ -142,12 +142,28 @@ namespace Assignment
              Declare int copies = 100;. Box it into an object variable,
             then unbox it back into a new int variable, and print both.
             */
-            
+
             //int copies = 100;
             //Object boxedCopies = copies;
             //int unboxedCopies = (int)boxedCopies;
             //Console.WriteLine(unboxedCopies); 
 
+
+            #endregion
+
+            #region Question 11 
+            /*
+            Declare an int? year = null;. Print whether it has a value,
+            then assign it 2023 and print its value.
+            */
+
+            //int? year = null;
+
+            //Console.WriteLine(year.HasValue);
+
+            //year = 2023;
+
+            //Console.WriteLine(year);
 
             #endregion
 
