@@ -74,6 +74,15 @@ namespace Assignment
 
 
             #endregion
+
+            #region Question 05 
+            //Declare an int pages = 300; then store it in a double variable without using a cast.
+
+            //int pages = 300;
+            //double doublePages = pages;
+            //Console.WriteLine(doublePages);
+
+            #endregion
         }
     }
 }
