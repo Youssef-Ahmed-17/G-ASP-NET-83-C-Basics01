@@ -8,7 +8,7 @@ namespace Assignment
     {
         class Book
         {
-            public string tittle;
+            public string title;
             public int pages;
         }
         static void Main(string[] args)
@@ -169,13 +169,25 @@ namespace Assignment
 
             #region Question 12 
             //Declare a string? reviewer = null;. Print whether it is null.
-          
+
             //string? reviewer = null;
             //Console.WriteLine(reviewer == null); 
 
 
             #endregion
 
+            #region Question 13 
+            /*Declare a Book? book = null;. Use ?. to safely read book.
+             Title without crashing the program, and print the result.
+            */
+
+            //Book? book = null;
+
+            //string? title = book?.title;
+
+            //Console.WriteLine(title);
+
+            #endregion
         }
     }
 }
